@@ -1,0 +1,11 @@
+@mixin user-select ($option: none) {
+    -webkit-user-select: $option;
+    -moz-user-select: $option;
+     -ms-user-select: $option;
+         user-select: $option;
+}
+
+@mixin box-shadow($horizontal: .3em, $vertical: .4em, $blur: 1em, $spread1: 0em, $spread2: 0.0625em, $spread2: 0.1875em, $color: $shadow) {
+    -webkit-box-shadow: $horizontal $vertical $blur $spread1 $color, $horizontal $vertical $blur $spread2 $color;
+            box-shadow: $horizontal $vertical $blur $spread2 $color, $horizontal $vertical $blur $spread2 $color;
+}
