@@ -20,7 +20,7 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(express.static('/'));
 
 app.get('/', (req, res) => {
-  res.sendFile(path.resolve('index.1.html'));
+  res.sendFile(path.resolve('index.html'));
 });
 
 app.listen(port, () => {
