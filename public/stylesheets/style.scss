@@ -85,6 +85,18 @@ aside {
     padding-top: 2.5em;
     .countries-title {
         color: $aside-title;
+        @media screen and (min-width: 48em) {
+            margin-left: -.3em;
+        }
+        @media screen and (min-width: 50.5em) {
+            margin-left: -.2em;
+        }
+        @media screen and (min-width: 52em) {
+            margin-left: -.1em;
+        }
+        @media screen and (min-width: 54.6em) {
+            margin-left: 0em;
+        }
     }
     .countries-list {
         padding-bottom: 2.5em;
