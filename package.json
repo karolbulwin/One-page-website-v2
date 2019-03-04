@@ -1,7 +1,7 @@
 {
-  "name": "one-page-website",
+  "name": "Website",
   "version": "1.0.0",
-  "description": "One-page-website is an example of simple one page website layout. Made with Bootstrap.",
+  "description": "Example of a website. Made with Bootstrap.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/karolbulwin/One-page-website.git"
+    "url": "git+https://github.com/karolbulwin/Website.git"
   },
   "author": "Karol Bulwin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/karolbulwin/One-page-website-v2/issues"
+    "url": "https://github.com/karolbulwin/Website/issues"
   },
-  "homepage": "https://github.com/karolbulwin/One-page-website-v2#readme",
+  "homepage": "https://github.com/karolbulwin/Website#readme",
   "devDependencies": {
     "eslint": "^5.15.0",
     "eslint-config-airbnb-base": "^13.1.0",
