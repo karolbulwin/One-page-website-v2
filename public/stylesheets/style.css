@@ -80,8 +80,12 @@ aside {
   text-align: center;
   padding-top: 2.5em; }
   aside .countries-title {
+    font-size: 2em;
     color: black;
     text-shadow: 1.5px 1.3px 4px rgba(0, 0, 0, 0.3); }
+    @media screen and (min-width: 576px) {
+      aside .countries-title {
+        font-size: 1.5em; } }
     @media screen and (min-width: 48em) {
       aside .countries-title {
         margin-left: -.3em; } }
@@ -94,6 +98,9 @@ aside {
     @media screen and (min-width: 54.6em) {
       aside .countries-title {
         margin-left: 0em; } }
+    @media screen and (min-width: 62em) {
+      aside .countries-title {
+        font-size: 1.8em; } }
   aside .countries-list {
     padding-bottom: 2.5em;
     padding-top: 2.5em; }
