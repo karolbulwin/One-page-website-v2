@@ -9,3 +9,8 @@
     -webkit-box-shadow: $horizontal $vertical $blur $spread1 $color, $horizontal $vertical $blur $spread2 $color;
             box-shadow: $horizontal $vertical $blur $spread2 $color, $horizontal $vertical $blur $spread2 $color;
 }
+
+@mixin btn-box-shadow($horizontal: 0em, $vertical: 0em, $blur: 0.1125em, $spread: 0.025em, $color: rgba(0, 0, 0, 0.3)) {
+    -webkit-box-shadow: $horizontal $vertical $blur $spread $color;
+    box-shadow: $horizontal $vertical $blur $spread $color;
+}

@@ -15,6 +15,10 @@ body {
     }
 }
 
+h1, h2 {
+    text-shadow: 1.5px 1.3px 4px rgba(0,0,0,.3);
+}
+
 h1, h2, h3, p {
     @include user-select(text);
 }
@@ -76,6 +80,9 @@ article {
     }
     p {
         font-size: 1em;
+    }
+    input[type=button] {
+        @include btn-box-shadow;
     }
 }
 
