@@ -159,6 +159,9 @@ aside {
     }
     :hover {
         color: $aside-icons-hover;
+        img {
+            @include box-shadow($horizontal: .1em, $vertical: .1em, $blur: .8em, $spread1: .0625em, $spread2: .0325em, $color1:  rgba(0, 0, 0, 0.3), $color2:  rgba(255, 255, 255, 0.3));
+        }
     }
 
 }
