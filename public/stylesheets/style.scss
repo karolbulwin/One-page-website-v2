@@ -132,7 +132,7 @@ aside {
         :hover {
             color: $aside-headers-hover;
             img {
-                @include box-shadow-countries(0.6);
+                @include box-shadow-countries(0.5);
             }
         }
     }
