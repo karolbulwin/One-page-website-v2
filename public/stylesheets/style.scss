@@ -96,6 +96,7 @@ aside {
     padding-top: 2.5em;
     .countries-title {
         color: $aside-title;
+        text-shadow: 1.5px 1.3px 4px rgba(0,0,0,.3);
         @media screen and (min-width: 48em) {
             margin-left: -.3em;
         }
@@ -125,10 +126,14 @@ aside {
                 height: 100%;
                 max-width: 6.05em;
                 max-height: 3.75em;
+                @include box-shadow-countries;
             }
         }
         :hover {
             color: $aside-headers-hover;
+            img {
+                @include box-shadow-countries(0.6);
+            }
         }
     }
 
