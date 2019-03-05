@@ -120,6 +120,9 @@ aside {
             max-height: 3.75em;
         }
     }
+    a:hover {
+            text-decoration: none;
+    }
 }
 
 .activities-icon-list {
@@ -129,6 +132,8 @@ aside {
     text-align: center;
     a {
         color: $aside-icons;
+        -webkit-transition-duration: 200ms;
+                transition-duration: 200ms;
         img {
             width: 4.375em;
             height: 4.375em;
@@ -138,6 +143,10 @@ aside {
             margin-bottom: 0.875em;
         }
     }
+    :hover {
+        color: $aside-icons-hover;
+    }
+
 }
 
 @media screen and (max-width: 47.9375em) {

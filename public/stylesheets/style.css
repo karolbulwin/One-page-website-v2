@@ -102,6 +102,8 @@ aside {
       height: 100%;
       max-width: 6.05em;
       max-height: 3.75em; }
+  aside a:hover {
+    text-decoration: none; }
 
 .activities-icon-list {
   background-color: #333;
@@ -109,13 +111,17 @@ aside {
   width: 100%;
   text-align: center; }
   .activities-icon-list a {
-    color: white; }
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms; }
     .activities-icon-list a img {
       width: 4.375em;
       height: 4.375em; }
     .activities-icon-list a h6 {
       margin-top: 0.125em;
       margin-bottom: 0.875em; }
+  .activities-icon-list :hover {
+    color: rgba(255, 255, 255, 0.75); }
 
 @media screen and (max-width: 47.9375em) {
   .activities-icon-list a {
