@@ -28,4 +28,10 @@
   document.body.addEventListener('keydown', () => {
     document.body.classList.remove('using-mouse');
   });
+
+  document.querySelectorAll('.btn-back').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      window.history.back();
+    });
+  });
 }());
