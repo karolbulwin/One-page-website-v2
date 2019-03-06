@@ -215,4 +215,9 @@ footer {
         justify-content: center;
         text-align: center;
     }
+    .btn {
+        @include btn-box-shadow;
+        background-color: $btn-end-side;
+        border-color: $btn-end-side;
+    }
 }

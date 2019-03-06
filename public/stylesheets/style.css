@@ -181,5 +181,10 @@ footer {
   .example-site-stop .row {
     justify-content: center;
     text-align: center; }
+  .example-site-stop .btn {
+    -webkit-box-shadow: 0em 0em 0.1125em 0.025em rgba(0, 0, 0, 0.3);
+    box-shadow: 0em 0em 0.1125em 0.025em rgba(0, 0, 0, 0.3);
+    background-color: darkgreen;
+    border-color: darkgreen; }
 
 /*# sourceMappingURL=style.css.map */
