@@ -181,6 +181,12 @@ aside {
     }
 }
 
+.contact-us {
+    display: block;
+    margin: 3.125em;
+    text-align: center;
+}
+
 footer {
     background-color: $main;
     color: lighten($color: $main, $amount: 70%);
