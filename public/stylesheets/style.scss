@@ -208,3 +208,11 @@ footer {
         @include btn-box-shadow;
     }
 }
+
+.example-site-stop {
+    height: 100vh;
+    .row {
+        justify-content: center;
+        text-align: center;
+    }
+}
