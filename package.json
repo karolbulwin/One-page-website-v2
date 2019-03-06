@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "DEBUG=app,app* nodemon app.js",
-    "lint": "eslint app.js"
+    "lint": "eslint app.js",
+    "sharp": "node sharp.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,8 @@
     "morgan": "^1.9.1",
     "node-sass-middleware": "^0.11.0",
     "nodemon": "^1.18.10",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "sharp": "^0.21.3"
   },
   "nodemonConfig": {
     "ignor": [
