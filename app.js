@@ -12,7 +12,7 @@ app.use(sassMiddleware({
   src: path.join(__dirname),
   dest: path.join(__dirname),
   debug: true,
-  // outputStyle: 'compressed',
+  outputStyle: 'compressed',
   indentedSyntax: false,
   sourceMap: true
 }));
