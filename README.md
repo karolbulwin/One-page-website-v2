@@ -4,7 +4,7 @@ Example of a website. Made with Bootstrap.
 
 ## Installation
 
-Just click on [Website](https://karolbulwin.github.io/One-page-website/index.html) and check it out!
+Just click on [Website](https://karolbulwin.github.io/Website/index.html) and check it out!
 
 ## Usage
 
