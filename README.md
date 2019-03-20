@@ -1,4 +1,4 @@
-# One-page-website
+# Website
 
 Example of a website. Made with Bootstrap.
 
